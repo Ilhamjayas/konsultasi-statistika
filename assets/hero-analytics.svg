@@ -1,0 +1,25 @@
+<svg width="480" height="420" viewBox="0 0 480 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="60" y1="40" x2="420" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D4AF37" />
+      <stop offset="1" stop-color="#6C4CC7" />
+    </linearGradient>
+    <linearGradient id="bars" x1="80" y1="360" x2="80" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity="0.1" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.85" />
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="479" height="419" rx="36" fill="#1F163B" stroke="rgba(255,255,255,0.06)" />
+  <path d="M40 340C96 280 140 300 184 254C234 204 282 212 332 162C360 134 392 112 440 120" stroke="url(#gradient)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <g opacity="0.9">
+    <rect x="80" y="220" width="40" height="140" rx="12" fill="url(#bars)" />
+    <rect x="150" y="180" width="40" height="180" rx="12" fill="url(#bars)" />
+    <rect x="220" y="140" width="40" height="220" rx="12" fill="url(#bars)" />
+    <rect x="290" y="200" width="40" height="160" rx="12" fill="url(#bars)" />
+    <rect x="360" y="110" width="40" height="250" rx="12" fill="url(#bars)" />
+  </g>
+  <circle cx="110" cy="120" r="6" fill="#D4AF37" />
+  <circle cx="210" cy="80" r="10" fill="#D4AF37" fill-opacity="0.4" />
+  <circle cx="300" cy="60" r="8" fill="#D4AF37" fill-opacity="0.6" />
+  <circle cx="380" cy="90" r="12" fill="#D4AF37" fill-opacity="0.3" />
+</svg>
